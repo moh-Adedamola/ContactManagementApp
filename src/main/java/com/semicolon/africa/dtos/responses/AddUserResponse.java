@@ -1,2 +1,10 @@
-package com.semicolon.africa.dtos.responses;public class AddUserResponse {
+package com.semicolon.africa.dtos.responses;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class AddUserResponse {
+    private String message;
 }
